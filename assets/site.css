@@ -247,8 +247,7 @@ tr:last-child td { border-bottom: 0; }
 /* Duyarlı düzen */
 @media (max-width: 900px) {
   .hero .wrap, .split { grid-template-columns: 1fr; }
-  .device { order: -1; width: min(280px, 72vw); }
-  .split .device { order: 0; }
+  .device { width: min(260px, 68vw); }
   .steps { grid-template-columns: 1fr; }
   .values { grid-template-columns: repeat(2, 1fr); }
 }
