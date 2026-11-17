@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://samettalhatozlu.github.io/pasajika/sitemap.xml
