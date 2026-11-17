@@ -226,10 +226,13 @@ tr:last-child td { border-bottom: 0; }
 }
 .contact-mail-label { font-size: 0.8rem; font-weight: 700; color: var(--muted); }
 .contact-mail-address {
-  font-size: 1.05rem; font-weight: 700; color: var(--text); overflow-wrap: anywhere;
+  font-size: clamp(0.95rem, 4.2vw, 1.1rem); font-weight: 700; color: var(--text); overflow-wrap: break-word;
   -webkit-user-select: all; user-select: all;
 }
 .contact-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.contact-actions .btn { flex: 1 1 170px; }
+@media (min-width: 640px) { .contact-actions .btn { flex: 0 0 auto; } }
+@media (max-width: 420px) { .contact-card { padding: 20px 18px; } .contact-mail { padding: 12px 14px; } }
 .contact-card .contact-status { font-size: 0.9rem; }
 .contact-card .contact-status.is-success { color: var(--olive); font-weight: 600; }
 .faq details {
