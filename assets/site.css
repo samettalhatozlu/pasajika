@@ -277,6 +277,15 @@ tr:last-child td { border-bottom: 0; }
   .brand span { display: none; }
   .nav a { padding: 8px 10px; }
 }
+@media (max-width: 380px) {
+  .site-header .wrap { gap: 8px; }
+  .nav { gap: 2px; }
+  .nav a { padding: 7px 8px; font-size: 0.9rem; }
+}
+@media (max-width: 330px) {
+  .brand { display: none; }
+  .site-header .wrap { justify-content: center; }
+}
 
 @media print {
   .site-header, .site-footer, .lang-switch, .toc { display: none; }
