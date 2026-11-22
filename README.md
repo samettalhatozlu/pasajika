@@ -1,6 +1,8 @@
 # Pasajika: Sırlı Raf
 
-iPhone için Türkçe günlük bulmaca oyunu **Pasajika: Sırlı Raf**'ın resmî web sitesi.
+iPhone ve iPad için Türkçe mantık bulmacası oyunu **Pasajika: Sırlı Raf**'ın resmî web sitesi.
+
+Oyunda 7 hikâye bölümü, 70 sipariş bölümü, sınırsız Serbest Oyun, Günün Siparişi (30 günlük arşivle), 16 rozet ve 36 eşyalık Antika Defteri bulunur. Reklam, hesap ve veri toplama yoktur; internet bağlantısı gerektirmez.
 
 - Site: https://samettalhatozlu.github.io/pasajika/
 - Gizlilik Politikası / Privacy Policy: https://samettalhatozlu.github.io/pasajika/gizlilik/
